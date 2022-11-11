@@ -23,7 +23,7 @@ else:
     c = values_first - values_second
     print("The value with minus is", c)
 
-#Four Calculator options
+#Four calculator options
 def calculate(t1, t2):
     multiple = t1 + t2 
     print("Multiple gives the values:", multiple)
