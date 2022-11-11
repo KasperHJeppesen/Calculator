@@ -23,18 +23,18 @@ else:
     c = values_first - values_second
     print("The value with minus is", c)
 
-#4 calculator options    
-def calculate(n1, n2):
-    multiple = n1 + n2 
+#Four Calculator options
+def calculate(t1, t2):
+    multiple = t1 + t2 
     print("Multiple gives the values:", multiple)
     
-    minus = n1 - n2
+    minus = t1 - t2
     print("Minus gives the values:", minus)
     
-    add = n1 * n2
+    add = t1 * t2
     print("Add gives the values:", add)
     
-    devide = n1 / n2
+    devide = t1 / t2
     print("devide gives the values:", devide)
 
 calculate(values_first, values_second)
