@@ -1,6 +1,6 @@
-#Print starttext
 from unicodedata import decimal
 
+#Print start text
 starttext = 'Now, this is a calculator. You need to enter your values, to let the calculator do it fanzy stuff'
 print(starttext)
 
@@ -23,8 +23,7 @@ else:
     c = values_first - values_second
     print("The value with minus is", c)
 
-
-    
+#4 calculator options    
 def calculate(n1, n2):
     multiple = n1 + n2 
     print("Multiple gives the values:", multiple)
