@@ -1,7 +1,7 @@
 from unicodedata import decimal
 
 #Print start text
-starttext = 'Now, this is a calculator. You need to enter your values, to let the calculator do it fanzy stuff'
+starttext = 'Now, this is a calculator. You need to enter your values, to let the calculator do the fanzy stuff'
 print(starttext)
 
 #Promt the user for two inputs
