@@ -8,9 +8,9 @@ print(starttext)
 values_first = float(input('enter your number: '))
 values_second = float(input('enter your number: '))
 
-#Failture: right sign
+#We need the + or -
 while True: 
-    sign = input('Enter your sign ')
+    sign = input('Enter your sign')
 
     if sign in ('+', '-'):
         break
