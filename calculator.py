@@ -1,5 +1,5 @@
 #Print start text
-starttext = 'This is a calculator.'
+starttext = 'This is a calculator!\n'
 print(starttext)
 
 #Promt the user for two inputs
@@ -15,11 +15,11 @@ while True:
 
 #Calculate 
 if sign == '+':
-    c = values_one + values_two
-    print("The value with multiple is", c)
+    t = values_one + values_two
+    print("The value with multiple is", round(t, 2))
 else: 
-    c = values_one - values_two
-    print("The value with minus is", c)
+    t = values_one - values_two
+    print("The value with minus is", round(t, 2))
 
 #Four calculator options
 def calculate(t1, t2):
