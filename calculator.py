@@ -5,8 +5,8 @@ starttext = 'Now, this is a calculator. You need to enter your values'
 print(starttext)
 
 #Promt the user for two inputs
-values_first = float(input('enter your number: '))
-values_second = float(input('enter your number: '))
+values_one = float(input('enter your number: '))
+values_two = float(input('enter your number: '))
 
 #We need the + or -
 while True: 
@@ -26,17 +26,17 @@ else:
 #Four calculator options
 def calculate(t1, t2):
     multiple = t1 + t2 
-    print("Multiple gives the values:", multiple)
+    print("Multiple gives the value:", multiple)
     
     minus = t1 - t2
-    print("Minus gives the values:", minus)
+    print("Minus gives the value:", minus)
     
     add = t1 * t2
-    print("Add gives the values:", add)
+    print("Add gives the value:", add)
     
     devide = t1 / t2
-    print("devide gives the values:", devide)
+    print("devide gives the value:", devide)
 
-calculate(values_first, values_second)
+calculate(values_one, values_two)
 
 
